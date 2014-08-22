@@ -20,10 +20,10 @@
 		84450A2019A6B33700529EBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84450A0219A6B33700529EBC /* UIKit.framework */; };
 		84450A2819A6B33700529EBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84450A2619A6B33700529EBC /* InfoPlist.strings */; };
 		84450A2A19A6B33700529EBC /* TopRegionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A2919A6B33700529EBC /* TopRegionsTests.m */; };
-		84450A3519A6B58200529EBC /* TopRegionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A3419A6B58200529EBC /* TopRegionsViewController.m */; };
 		84450A3919A6B5DA00529EBC /* TopPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A3819A6B5DA00529EBC /* TopPhotosViewController.m */; };
 		84450A3C19A6B63700529EBC /* RecentlyViewedPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A3B19A6B63700529EBC /* RecentlyViewedPhotosViewController.m */; };
 		84450A4419A6D77B00529EBC /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A4319A6D77B00529EBC /* CoreDataTableViewController.m */; };
+		84450A4719A7365E00529EBC /* TopRegionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A4619A7365E00529EBC /* TopRegionsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,14 +54,14 @@
 		84450A2519A6B33700529EBC /* TopRegionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopRegionsTests-Info.plist"; sourceTree = "<group>"; };
 		84450A2719A6B33700529EBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84450A2919A6B33700529EBC /* TopRegionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopRegionsTests.m; sourceTree = "<group>"; };
-		84450A3319A6B58200529EBC /* TopRegionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopRegionsViewController.h; sourceTree = "<group>"; };
-		84450A3419A6B58200529EBC /* TopRegionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopRegionsViewController.m; sourceTree = "<group>"; };
 		84450A3719A6B5DA00529EBC /* TopPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopPhotosViewController.h; sourceTree = "<group>"; };
 		84450A3819A6B5DA00529EBC /* TopPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopPhotosViewController.m; sourceTree = "<group>"; };
 		84450A3A19A6B63700529EBC /* RecentlyViewedPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentlyViewedPhotosViewController.h; sourceTree = "<group>"; };
 		84450A3B19A6B63700529EBC /* RecentlyViewedPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentlyViewedPhotosViewController.m; sourceTree = "<group>"; };
 		84450A4219A6D77B00529EBC /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
 		84450A4319A6D77B00529EBC /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		84450A4519A7365E00529EBC /* TopRegionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopRegionsViewController.h; sourceTree = "<group>"; };
+		84450A4619A7365E00529EBC /* TopRegionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopRegionsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,8 +168,8 @@
 				84450A3B19A6B63700529EBC /* RecentlyViewedPhotosViewController.m */,
 				84450A3719A6B5DA00529EBC /* TopPhotosViewController.h */,
 				84450A3819A6B5DA00529EBC /* TopPhotosViewController.m */,
-				84450A3319A6B58200529EBC /* TopRegionsViewController.h */,
-				84450A3419A6B58200529EBC /* TopRegionsViewController.m */,
+				84450A4519A7365E00529EBC /* TopRegionsViewController.h */,
+				84450A4619A7365E00529EBC /* TopRegionsViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -280,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84450A3519A6B58200529EBC /* TopRegionsViewController.m in Sources */,
+				84450A4719A7365E00529EBC /* TopRegionsViewController.m in Sources */,
 				84450A0F19A6B33700529EBC /* AppDelegate.m in Sources */,
 				84450A4419A6D77B00529EBC /* CoreDataTableViewController.m in Sources */,
 				84450A0B19A6B33700529EBC /* main.m in Sources */,
