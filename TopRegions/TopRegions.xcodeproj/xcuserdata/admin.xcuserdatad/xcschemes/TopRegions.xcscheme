@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "844509FA19A6B33700529EBC"
+               BlueprintIdentifier = "84450A5019A73CFB00529EBC"
                BuildableName = "TopRegions.app"
                BlueprintName = "TopRegions"
                ReferencedContainer = "container:TopRegions.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84450A1B19A6B33700529EBC"
+               BlueprintIdentifier = "84450A7119A73CFB00529EBC"
                BuildableName = "TopRegionsTests.xctest"
                BlueprintName = "TopRegionsTests"
                ReferencedContainer = "container:TopRegions.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "844509FA19A6B33700529EBC"
+            BlueprintIdentifier = "84450A5019A73CFB00529EBC"
             BuildableName = "TopRegions.app"
             BlueprintName = "TopRegions"
             ReferencedContainer = "container:TopRegions.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "844509FA19A6B33700529EBC"
+            BlueprintIdentifier = "84450A5019A73CFB00529EBC"
             BuildableName = "TopRegions.app"
             BlueprintName = "TopRegions"
             ReferencedContainer = "container:TopRegions.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "844509FA19A6B33700529EBC"
+            BlueprintIdentifier = "84450A5019A73CFB00529EBC"
             BuildableName = "TopRegions.app"
             BlueprintName = "TopRegions"
             ReferencedContainer = "container:TopRegions.xcodeproj">
