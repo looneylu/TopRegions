@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RecentlyViewedPhotosTableViewController.h
 //  TopRegions
 //
 //  Created by Luis Carbuccia on 8/22/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RecentlyViewedPhotosTableViewController : UITableViewController
 
 @end

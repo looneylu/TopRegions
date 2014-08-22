@@ -14,13 +14,16 @@
 		84450A6119A73CFB00529EBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A6019A73CFB00529EBC /* main.m */; };
 		84450A6519A73CFB00529EBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A6419A73CFB00529EBC /* AppDelegate.m */; };
 		84450A6819A73CFB00529EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84450A6619A73CFB00529EBC /* Main.storyboard */; };
-		84450A6B19A73CFB00529EBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A6A19A73CFB00529EBC /* ViewController.m */; };
 		84450A6D19A73CFB00529EBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84450A6C19A73CFB00529EBC /* Images.xcassets */; };
 		84450A7419A73CFB00529EBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84450A7319A73CFB00529EBC /* XCTest.framework */; };
 		84450A7519A73CFB00529EBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84450A5419A73CFB00529EBC /* Foundation.framework */; };
 		84450A7619A73CFB00529EBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84450A5819A73CFB00529EBC /* UIKit.framework */; };
 		84450A7E19A73CFB00529EBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84450A7C19A73CFB00529EBC /* InfoPlist.strings */; };
 		84450A8019A73CFB00529EBC /* TopRegionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A7F19A73CFB00529EBC /* TopRegionsTests.m */; };
+		84450A8B19A73E3500529EBC /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A8A19A73E3500529EBC /* CoreDataTableViewController.m */; };
+		84450A8F19A73EDF00529EBC /* TopRegionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A8E19A73EDF00529EBC /* TopRegionsViewController.m */; };
+		84450A9319A7408B00529EBC /* RecentlyViewedPhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A9219A7408B00529EBC /* RecentlyViewedPhotosTableViewController.m */; };
+		84450A9619A7414400529EBC /* PhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84450A9519A7414400529EBC /* PhotosTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,20 @@
 		84450A6319A73CFB00529EBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84450A6419A73CFB00529EBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84450A6719A73CFB00529EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84450A6919A73CFB00529EBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84450A6A19A73CFB00529EBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84450A6C19A73CFB00529EBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84450A7219A73CFB00529EBC /* TopRegionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopRegionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84450A7319A73CFB00529EBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		84450A7B19A73CFB00529EBC /* TopRegionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopRegionsTests-Info.plist"; sourceTree = "<group>"; };
 		84450A7D19A73CFB00529EBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84450A7F19A73CFB00529EBC /* TopRegionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopRegionsTests.m; sourceTree = "<group>"; };
+		84450A8919A73E3500529EBC /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		84450A8A19A73E3500529EBC /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		84450A8D19A73EDF00529EBC /* TopRegionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopRegionsViewController.h; sourceTree = "<group>"; };
+		84450A8E19A73EDF00529EBC /* TopRegionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopRegionsViewController.m; sourceTree = "<group>"; };
+		84450A9119A7408B00529EBC /* RecentlyViewedPhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentlyViewedPhotosTableViewController.h; sourceTree = "<group>"; };
+		84450A9219A7408B00529EBC /* RecentlyViewedPhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentlyViewedPhotosTableViewController.m; sourceTree = "<group>"; };
+		84450A9419A7414400529EBC /* PhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosTableViewController.h; sourceTree = "<group>"; };
+		84450A9519A7414400529EBC /* PhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				84450A6619A73CFB00529EBC /* Main.storyboard */,
-				84450A6919A73CFB00529EBC /* ViewController.h */,
-				84450A6A19A73CFB00529EBC /* ViewController.m */,
+				84450A9019A73EEE00529EBC /* View Controllers */,
+				84450A8C19A73E3E00529EBC /* CoreDataTableViewController */,
 				84450A6319A73CFB00529EBC /* AppDelegate.h */,
 				84450A6419A73CFB00529EBC /* AppDelegate.m */,
 				84450A6C19A73CFB00529EBC /* Images.xcassets */,
@@ -150,6 +159,28 @@
 				84450A7C19A73CFB00529EBC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84450A8C19A73E3E00529EBC /* CoreDataTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84450A8919A73E3500529EBC /* CoreDataTableViewController.h */,
+				84450A8A19A73E3500529EBC /* CoreDataTableViewController.m */,
+			);
+			name = CoreDataTableViewController;
+			sourceTree = "<group>";
+		};
+		84450A9019A73EEE00529EBC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84450A9419A7414400529EBC /* PhotosTableViewController.h */,
+				84450A9519A7414400529EBC /* PhotosTableViewController.m */,
+				84450A9119A7408B00529EBC /* RecentlyViewedPhotosTableViewController.h */,
+				84450A9219A7408B00529EBC /* RecentlyViewedPhotosTableViewController.m */,
+				84450A8D19A73EDF00529EBC /* TopRegionsViewController.h */,
+				84450A8E19A73EDF00529EBC /* TopRegionsViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84450A6B19A73CFB00529EBC /* ViewController.m in Sources */,
 				84450A6519A73CFB00529EBC /* AppDelegate.m in Sources */,
+				84450A9319A7408B00529EBC /* RecentlyViewedPhotosTableViewController.m in Sources */,
+				84450A9619A7414400529EBC /* PhotosTableViewController.m in Sources */,
 				84450A6119A73CFB00529EBC /* main.m in Sources */,
+				84450A8F19A73EDF00529EBC /* TopRegionsViewController.m in Sources */,
+				84450A8B19A73E3500529EBC /* CoreDataTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
